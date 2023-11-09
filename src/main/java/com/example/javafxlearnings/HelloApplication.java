@@ -54,7 +54,7 @@ public class HelloApplication extends Application {
         rec.setFill(Color.RED);
 
         Circle c1=new Circle();
-        c1.setRadius(20);
+        c1.setRadius(90);
         c1.setCenterX(100);
         c1.setCenterY(100);
         c1.setStroke(Color.BLACK);
