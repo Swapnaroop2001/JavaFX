@@ -53,8 +53,16 @@ public class HelloApplication extends Application {
         rec.setWidth(500);
         rec.setFill(Color.RED);
 
+        Circle c1=new Circle();
+        c1.setRadius(20);
+        c1.setCenterX(100);
+        c1.setCenterY(100);
+        c1.setStroke(Color.BLACK);
+        c1.setFill(Color.RED);
+
         root.getChildren().add(txt);
         root.getChildren().add(rec);
+        root.getChildren().add(c1);
 
 
 
