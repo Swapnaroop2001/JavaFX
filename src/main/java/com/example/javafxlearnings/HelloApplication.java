@@ -39,10 +39,9 @@ public class HelloApplication extends Application {
         txt.setText("siuuuuuu!!!!");
         txt.setX(250);
         txt.setY(50);
-        txt.setRotate(45);
 
         Circle circle1=new Circle();
-        circle1.setCenterX(360);
+        circle1.setCenterX(150);
         circle1.setCenterY(360);
         circle1.setRadius(23);
 
